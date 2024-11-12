@@ -1,6 +1,6 @@
 *Void – A Game That Contains Nothing*
 
-This game for Minetest was reduced to the bare minimum of files and configuration. It contains quite literally “nothing”. It registers no more items than the essentially needed nodes and the hand.
+This game for Luanti was reduced to the bare minimum of files and configuration. It contains quite literally “nothing”. It registers no more items than the essentially needed nodes and the hand.
 
 The game is not meant for playing (well, of course you can but there is nothing fun to do except digging the three essential nodes and placing them again). The purpose of this game is to test mods in an absolutely “clean” environment with absolutely no “3rd-party” mods or APIs provided by such mods.
 
@@ -10,7 +10,7 @@ The game is not meant for playing (well, of course you can but there is nothing 
 
 Some necessary game files are used.
 
-* `game.conf` – Sets the human-readable name of the game as per Minetest API
+* `game.conf` – Sets the human-readable name of the game as per Luanti API
 * `README.md` – This document
 * `LICENSE.txt` – Licensing information for the whole game including all the mods
 * `mods/void_essential` – This mod adds essential things for properly running a map generator
@@ -50,7 +50,7 @@ This mod also uses the bare minimum that is needed for mods.
 
 To use this game simply switch to the game in the client and create a new world. You can use all standards compliant map generators with all of the settings. Except the three essential nodes (stone, water, river water) and the “hand tool” nothing is registered or loaded, or provided. You’ll have a pure, absolutely independent, bare minimum version of a game.
 
-In order to test your mods simply configure the created world and add the mods as needed for testing. Then start the world and see what’s happening. Since there is no creative inventory turning on creative mode does not change the Minetest-provided default inventory. You need a mod for that or use the `/giveme` command.
+In order to test your mods simply configure the created world and add the mods as needed for testing. Then start the world and see what’s happening. Since there is no creative inventory turning on creative mode does not change the Luanti-provided default inventory. You need a mod for that or use the `/giveme` command.
 
 ## Legal Information
 

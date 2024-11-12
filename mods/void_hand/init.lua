@@ -1,4 +1,4 @@
-local register_item = minetest.register_item
+local register_item = core.register_item
 
 
 register_item(':', {

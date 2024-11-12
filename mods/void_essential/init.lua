@@ -1,5 +1,5 @@
-local register_node = minetest.register_node
-local register_alias = minetest.register_alias
+local register_node = core.register_node
+local register_alias = core.register_alias
 
 
 register_node('void_essential:stone', {
