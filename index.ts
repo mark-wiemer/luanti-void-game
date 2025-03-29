@@ -1,1 +1,1 @@
-import type {} from "@repcomm/mt-api";
+import type {} from "@mark-wiemer/luanti-api";
