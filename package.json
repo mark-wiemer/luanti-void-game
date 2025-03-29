@@ -1,0 +1,27 @@
+{
+  "name": "void",
+  "version": "0.1.0",
+  "description": "Minimal Luanti game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-wiemer/luanti-void-game.git"
+  },
+  "keywords": [
+    "luanti"
+  ],
+  "author": "Mark Wiemer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mark-wiemer/luanti-void-game/issues"
+  },
+  "homepage": "https://github.com/mark-wiemer/luanti-void-game#readme",
+  "devDependencies": {
+    "@repcomm/mt-api": "^1.0.12",
+    "typescript": "^5.8.2",
+    "typescript-to-lua": "^1.31.0"
+  }
+}
