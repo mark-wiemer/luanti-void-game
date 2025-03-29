@@ -1,8 +1,8 @@
 {
   "name": "void",
+  "private": "true",
   "version": "0.1.0",
   "description": "Minimal Luanti game",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sudo \"$(which fnm)\" exec --using=22.14.0 npm run build:inner",
