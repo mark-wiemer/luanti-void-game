@@ -12,7 +12,7 @@ This version uses [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScrip
 1. `cd` into this repo
 1. `npm i` to install dependencies and link to the cloned luanti-api
 1. `npm run build` to compile TypeScript to Lua and move all game-necessary files to a `dist` folder. Re-run this whenever you change the TS.
-1. Copy `dist` into your Luanti games folder however you like, e.g. `cp dist path/to/luanti/games/void`
+1. Copy `dist` into your Luanti games folder however you like, e.g. `cp -r dist path/to/luanti/games/void`
 1. The game should appear in Luanti!
 
 ## Toolchain
