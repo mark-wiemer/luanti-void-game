@@ -5,8 +5,7 @@
   "description": "Minimal Luanti game",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "sudo \"$(which fnm)\" exec --using=22.14.0 npm run build:inner",
-    "build:inner": "tstl"
+    "build": "tstl && cpy game.conf mods !*.ts dist"
   },
   "repository": {
     "type": "git",
@@ -23,6 +22,7 @@
   "homepage": "https://github.com/mark-wiemer/luanti-void-game#readme",
   "devDependencies": {
     "@mark-wiemer/luanti-api": "file:../luanti-api",
+    "cpy-cli": "^5.0.0",
     "typescript": "^5.8.2",
     "typescript-to-lua": "^1.31.0"
   }
