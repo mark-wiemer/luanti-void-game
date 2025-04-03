@@ -17,7 +17,16 @@ This version uses [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScrip
 
 ## Toolchain
 
-VS Code extensions:
+Tools are listed alphabetically
+
+### npm packages
+
+- `@mark-wiemer/luanti-api` for declaring Luanti API functions in TypeScript
+- `cpy-cli` for cross-platform copying game files into the dist folder
+- `typescript` for writing the source code
+- `tstl`, TypeScriptToLua, for transpiling TypeScript to Lua
+
+### VS Code extensions
 
 - LuaLS for enhanced syntax highlighting
 - StyLua for styling of generated files
