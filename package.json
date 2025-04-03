@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "sudo \"$(which fnm)\" exec --using=22.14.0 npm run build:inner",
-    "build:inner": "tstl && cp -r . /home/markw/.var/app/net.minetest.Minetest/.minetest/games/void"
+    "build:inner": "tstl"
   },
   "repository": {
     "type": "git",
