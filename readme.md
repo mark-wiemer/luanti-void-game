@@ -7,6 +7,8 @@ A fork of linuxdirk's minimal Void game for Luanti, used as a testbed for a noob
 
 This version uses [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) and is meant to be developed alongside [@mark-wiemer/luanti-api](https://github.com/mark-wiemer/luanti-api)
 
+This project was forked from https://git.0x7be.net/dirk/void
+
 ## Getting started
 
 1. Install Node.js and npm
