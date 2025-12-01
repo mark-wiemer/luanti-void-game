@@ -1,5 +1,8 @@
 # Void, a minimal Luanti game
 
+> [!IMPORTANT]
+> This project has moved to [my hello-hello monorepo](https://github.com/mark-wiemer/hello-hello/tree/main/packages/luanti/void-game-ts), it's not abandoned!
+
 A fork of linuxdirk's minimal Void game for Luanti, used as a testbed for a noob like me.
 
 This version uses [TypeScriptToLua](https://github.com/TypeScriptToLua/TypeScriptToLua) and is meant to be developed alongside [@mark-wiemer/luanti-api](https://github.com/mark-wiemer/luanti-api)
